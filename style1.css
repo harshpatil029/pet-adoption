@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+}
+
+a i{
+  height: 20px;
+  width: 15px;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #FF6347;
+  color: white;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 30px;
+  text-align: center;
+  color: #333333;
+}
+
+.h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333333;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 30px auto;
+  color: #333333;
+}
+
+table, th, td {
+  border: 1px solid #999999;
+  padding: 10px;
+}
+
+th {
+  background-color: #FF6347;
+  color: white;
+}
+
+form {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333333;
+}
+
+label[for="breed-filter"] {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+  color: #333333;
+}
+
+input[type="text"], input[type="number"], select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #999999;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #333333;
+}
+
+input[type="submit"] {
+  background-color: #FF6347;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #FF4D26;
+}
+
+textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #999999;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #FF8C6C;
+  color: white;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label, input, select {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #FF8C6C;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #FF4D26;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  color: #333333;
+}
+
+input[id="breed-filter"] {
+  padding-left: 3px;
+  margin-bottom: 10px;
+}
+
+#new-pet-image,
+img {
+  width: 30%; 
+  height: auto; 
+  align-items: center;
+  justify-content: center;
+}
